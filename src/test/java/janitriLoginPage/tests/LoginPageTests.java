@@ -25,7 +25,7 @@ public class LoginPageTests extends SetUp{
 		Lp.clickonLogin();
 		Assert.assertEquals(enterUserID,"");
 		Assert.assertEquals(enterPassword, "");
-		Assert.assertTrue(b); 
+		Assert.assertTrue(b);
 	}
 	@Test
 	public void validatewithRandomCredentials()
